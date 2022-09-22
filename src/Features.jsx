@@ -2,7 +2,6 @@ const Features = () => {
   return (
     <div className="w-fullf flex justify-center dark:bg-gray-900">
       <div className="max-w-screen-xl">
-        {" "}
         <section>
           <div class="container px-6 py-10 mx-auto">
             <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">
@@ -49,26 +48,6 @@ const Features = () => {
                   Provident ab nulla quod dignissimos vel non corrupti doloribus
                   voluptatum eveniet
                 </p>
-
-                <a
-                  href="#"
-                  class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-200 transform bg-blue-100 rounded-full dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="w-6 h-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                </a>
               </div>
 
               <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
@@ -98,26 +77,6 @@ const Features = () => {
                   Provident ab nulla quod dignissimos vel non corrupti doloribus
                   voluptatum eveniet
                 </p>
-
-                <a
-                  href="#"
-                  class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-200 transform bg-blue-100 rounded-full dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="w-6 h-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                </a>
               </div>
 
               <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
@@ -147,26 +106,6 @@ const Features = () => {
                   Provident ab nulla quod dignissimos vel non corrupti doloribus
                   voluptatum eveniet
                 </p>
-
-                <a
-                  href="#"
-                  class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-200 transform bg-blue-100 rounded-full dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="w-6 h-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                </a>
               </div>
             </div>
           </div>

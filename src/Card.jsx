@@ -30,7 +30,7 @@ const Card = () => {
                         class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
                         href="#0"
                       >
-                        Product
+                        NFT
                       </a>
                     </li>
                     <li class="m-1">
@@ -38,7 +38,7 @@ const Card = () => {
                         class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out"
                         href="#0"
                       >
-                        Engineering
+                        Token
                       </a>
                     </li>
                   </ul>
@@ -48,7 +48,7 @@ const Card = () => {
                     class="hover:text-gray-100 transition duration-150 ease-in-out"
                     href="#0"
                   >
-                    Designing a functional workflow at home.
+                    Fugiat nulla pariatur. Excepteur sint occaecat.
                   </a>
                 </h3>
               </header>
@@ -61,7 +61,7 @@ const Card = () => {
                 <a href="#0">
                   <img
                     class="rounded-full flex-shrink-0 mr-4"
-                    src="https://preview.cruip.com/open-pro/images/news-author-04.jpg"
+                    src="https://www.circle.com/hubfs/spot-icon-usdc.png"
                     width="40"
                     height="40"
                     alt="Author 04"
@@ -72,7 +72,7 @@ const Card = () => {
                     class="font-medium text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
                     href="#0"
                   >
-                    Chris Solerieu
+                    TokenName
                   </a>
                   <span class="text-gray-700"> - </span>
                   <span class="text-gray-500">Jan 19, 2020</span>
