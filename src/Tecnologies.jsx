@@ -1,4 +1,7 @@
 import React from "react";
+import mint from "./assets/icons/Mint.png";
+import stake from "./assets/icons/Stake.png";
+import multiply from "./assets/icons/Multiply.png";
 
 const Tecnologies = () => {
   return (
@@ -10,15 +13,15 @@ const Tecnologies = () => {
               <img
                 alt="testimonial"
                 class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                src="https://dummyimage.com/302x302"
+                src={mint}
               />
               <p class="leading-relaxed">
-                Edison bulb retro cloud bread echo park, helvetica stumptown
-                taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
-                ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
-                adaptogen squid fanny pack vaporware.
+                Mint GoblinNFTs at fixed price with low fees and fast
+                transaction on Polygon. You can chose between a specific NFT or
+                test your luck on the Deeplake Dungeon and see if you can get a
+                Magician to boost you battles.
               </p>
-              <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+              <span class="inline-block h-1 w-10 rounded bg-teal-600 mt-6 mb-4"></span>
               <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">
                 Mint
               </h2>
@@ -30,15 +33,15 @@ const Tecnologies = () => {
               <img
                 alt="testimonial"
                 class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                src="https://dummyimage.com/300x300"
+                src={stake}
               />
               <p class="leading-relaxed">
-                Edison bulb retro cloud bread echo park, helvetica stumptown
-                taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
-                ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
-                adaptogen squid fanny pack vaporware.
+                Stake tokens to earn daily rewards and be eligible for airdrops.
+                You can harvest or even compound your tokens to keep earning
+                without leaving the Magical Valley. Early Goblin hunters can get
+                higher profits, since they will get scarcer over time.
               </p>
-              <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+              <span class="inline-block h-1 w-10 rounded bg-teal-600 mt-6 mb-4"></span>
               <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">
                 Stake Tokens
               </h2>
@@ -50,15 +53,15 @@ const Tecnologies = () => {
               <img
                 alt="testimonial"
                 class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                src="https://dummyimage.com/305x305"
+                src={multiply}
               />
               <p class="leading-relaxed">
-                Edison bulb retro cloud bread echo park, helvetica stumptown
-                taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
-                ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
-                adaptogen squid fanny pack vaporware.
+                You can also use Mystical NFTs combined with normal warriors to
+                multiply your staking rewards and increase your chance to get an
+                airdrop. Mystical NFTs can be found at the Deeplake Dungeon and
+                help massively your army on raids.
               </p>
-              <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+              <span class="inline-block h-1 w-10 rounded bg-teal-600 mt-6 mb-4"></span>
               <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">
                 Super Stake
               </h2>

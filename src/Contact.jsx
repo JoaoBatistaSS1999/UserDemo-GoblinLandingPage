@@ -4,18 +4,18 @@ export default function Contact() {
   return (
     <div
       id="contact"
-      class="flex flex-col items-center p-8 text-center border border-gray-200 rounded-lg"
+      className="flex bg-[#113c47] flex-col items-center p-8 text-center  border-"
     >
-      <h2 class="text-2xl font-medium">Join Us</h2>
+      <h2 class="text-2xl font-medium text-white">Join Us</h2>
 
-      <p class="mt-4 text-sm max-w-[400px] text-gray-500">
-        Get the latest news from our projects by being part of our growing
+      <p class="mt-4 text-sm max-w-[400px] text-white">
+        Get the latest news from our project by being part of our growing
         community, have a chat with hundreds of investors like you!
       </p>
 
       <a
         href=""
-        class="inline-flex items-center px-5 py-3 mt-8 font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-500"
+        class="inline-flex items-center px-5 py-3 mt-8 font-medium text-white bg-teal-600 rounded-lg hover:bg-teal-700 transition duration-200"
       >
         <button className="flex items-center">
           Telegram

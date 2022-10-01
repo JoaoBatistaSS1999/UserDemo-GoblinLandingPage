@@ -8,13 +8,13 @@ export default function Header() {
   };
 
   return (
-    <header id="home" className="bg-white fixed w-full z-10 shadow-md">
+    <header id="home" className="bg-[#04181D] fixed w-full z-10 shadow-md">
       <div className="px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* {logo} */}
-          <div className="flex-1 md:flex md:items-center md:gap-12">
+          <div className="flex items-center gap-12">
             <a className="block text-teal-600" href="#home">
-              <h1 className="text-3xl font">Logo</h1>
+              <h1 className="text-3xl font-nunito font-bold">GoblinZ</h1>
             </a>
           </div>
 
@@ -24,15 +24,15 @@ export default function Header() {
               className="hidden md:block"
               aria-labelledby="header-navigation"
             >
-              <h2 className="sr-only" id="header-navigation">
+              {/* <h2 className="sr-only" id="header-navigation">
                 Header navigation
-              </h2>
+              </h2> */}
 
-              <ul className="flex items-center text-sm gap-6">
+              <ul className="flex items-center text-sm gap-6 text-white">
                 <li>
                   <a
-                    className="text-gray-500 transition hover:text-gray-500/75"
-                    href="https://www.youtube.com/watch?v=vDqULFUg6CY"
+                    className="hover:text-teal-600"
+                    href="https://goblinz-token.gitbook.io/goblinz/nft-multiplier"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -41,28 +41,19 @@ export default function Header() {
                 </li>
 
                 <li>
-                  <a
-                    className="text-gray-500 transition hover:text-gray-500/75"
-                    href="#stats"
-                  >
+                  <a className="hover:text-teal-600" href="#stats">
                     Stats
                   </a>
                 </li>
 
                 <li>
-                  <a
-                    className="text-gray-500 transition hover:text-gray-500/75"
-                    href="#features"
-                  >
+                  <a className="hover:text-teal-600" href="#features">
                     Features
                   </a>
                 </li>
 
                 <li>
-                  <a
-                    className="text-gray-500 transition hover:text-gray-500/75"
-                    href="#story"
-                  >
+                  <a className="hover:text-teal-600" href="#story">
                     Story
                   </a>
                 </li>
@@ -72,8 +63,8 @@ export default function Header() {
             <div className="flex items-center gap-4">
               <div className="sm:gap-4 sm:flex">
                 <a
-                  className="px-5 py-2.5 text-sm font-medium text-white bg-teal-600 rounded-md shadow"
-                  href="https://www.youtube.com/watch?v=vDqULFUg6CY"
+                  className="px-5 py-2.5 text-sm font-medium text-white bg-teal-600 hover:bg-teal-700 rounded-md shadow"
+                  href="https://user-demo-goblin-mint-dapp-qmqb.vercel.app/"
                   target="_black"
                   rel="noreferrer"
                 >
@@ -82,8 +73,8 @@ export default function Header() {
 
                 <div className="hidden sm:flex">
                   <a
-                    className="px-5 py-2.5 text-sm font-medium text-teal-600 bg-gray-100 rounded-md"
-                    href="https://www.youtube.com/watch?v=vDqULFUg6CY"
+                    className="px-5 py-2.5 text-sm font-medium text-black bg-gray-100 hover:bg-gray-300 rounded-md"
+                    href="https://user-demo-token-stake.vercel.app/"
                     target="_black"
                     rel="noreferrer"
                   >
@@ -124,13 +115,13 @@ export default function Header() {
                 <div
                   className={
                     nav
-                      ? " fixed z-50 flex flex-col justify-between left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white text-black p-10 ease-in duration-500"
+                      ? "bg-[#04181D] fixed z-50 flex flex-col justify-between left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen text-white p-10 ease-in duration-500"
                       : "fixed left-[-130%] top-0 p-10 ease-in duration-500"
                   }
                 >
                   <div className="flex flex-col w-full items-center justify-between">
                     <div className="flex justify-between items-center w-full mb-5">
-                      <h1 className="text-2xl">Logo</h1>
+                      <h1 className="text-2xl font-nunito">GoblinZ</h1>
                       <div
                         onClick={handleNav}
                         className="rounded shadow-lg bg-teal-600 w-9 h-9 text-white p-2 flex justify-center items-center cursor-pointer"

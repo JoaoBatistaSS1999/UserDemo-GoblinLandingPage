@@ -3,12 +3,12 @@ import React from "react";
 function Footer() {
   return (
     <div>
-      <footer class="bg-gray-100 border-t-2 border-blue-400">
+      <footer class="bg-[#08262e] border-t-2 border-gray-400">
         <div class="relative px-4 py-16 mx-auto max-w-screen-xl sm:px-6 lg:px-8 lg:pt-24">
           <div class="absolute top-4 sm:top-6 lg:top-8 right-4 sm:right-6 lg:right-8">
             <a
-              class="inline-block p-2 text-white bg-teal-600 rounded-full shadow transition sm:p-3 lg:p-4 hover:bg-teal-500"
-              href="#home"
+              class="inline-block p-2 text-white bg-teal-600 hover:bg-teal-700 transition duration-200 rounded-full shadow sm:p-3 lg:p-4"
+              href="#about"
             >
               <span class="sr-only">Back to top</span>
 
@@ -30,56 +30,44 @@ function Footer() {
           <div class="lg:flex lg:items-end lg:justify-between">
             <div>
               <div class="flex justify-center text-teal-600 lg:justify-start">
-                <h2 className="text-3xl">Logo</h2>
+                <h2 className="text-3xl font-bold">GoblinZ</h2>
               </div>
 
-              <p class="max-w-md mx-auto mt-6 leading-relaxed text-center text-gray-500 lg:text-left">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Incidunt consequuntur amet culpa cum itaque neque.
+              <p class="max-w-md mx-auto mt-6 leading-relaxed text-center text-white lg:text-left">
+                Everything you can imagine is real. Join the Goblin Adventure
+                and get your magical tokens from the Castel's vault!
               </p>
             </div>
 
             <nav class="mt-12 lg:mt-0" aria-labelledby="footer-navigation">
-              <ul class="flex flex-wrap justify-center gap-6 lg:justify-end ">
+              <ul class="flex flex-wrap justify-center text-white gap-6 lg:justify-end ">
                 <li>
-                  <a
-                    class="text-gray-700 transition hover:text-gray-700/75"
-                    href="#about"
-                  >
+                  <a class="" href="#about">
                     About
                   </a>
                 </li>
 
                 <li>
-                  <a
-                    class="text-gray-700 transition hover:text-gray-700/75"
-                    href="#stats"
-                  >
+                  <a class=":" href="#stats">
                     Stats
                   </a>
                 </li>
 
                 <li>
-                  <a
-                    class="text-gray-700 transition hover:text-gray-700/75"
-                    href="#features"
-                  >
+                  <a class=":" href="#features">
                     Features
                   </a>
                 </li>
 
                 <li>
-                  <a
-                    class="text-gray-700 transition hover:text-gray-700/75"
-                    href="#story"
-                  >
+                  <a class=":" href="#story">
                     Story
                   </a>
                 </li>
 
                 <li>
                   <a
-                    class="text-gray-700 transition hover:text-gray-700/75"
+                    class=":"
                     href="https://www.youtube.com/watch?v=vDqULFUg6CY"
                     target="_blank"
                     rel="noreferrer"
@@ -89,7 +77,7 @@ function Footer() {
                 </li>
                 <li>
                   <a
-                    class="text-gray-700 transition hover:text-gray-700/75"
+                    class=""
                     href="https://www.youtube.com/watch?v=vDqULFUg6CY"
                     target="_blank"
                     rel="noreferrer"
@@ -101,7 +89,7 @@ function Footer() {
             </nav>
           </div>
 
-          <p class="mt-12 text-sm text-center text-gray-500 lg:text-right">
+          <p class="mt-12 text-sm text-center text-gray-400 lg:text-right">
             Copyright &copy; 2022. All rights reserved.
           </p>
         </div>

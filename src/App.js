@@ -10,7 +10,7 @@ import Tecnologies from "./Tecnologies";
 
 function App() {
   return (
-    <div>
+    <div className="selection:bg-teal-600 selection:text-black">
       <Header />
       <Hero />
       <Stats />

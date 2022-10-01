@@ -6,17 +6,12 @@ const Features = () => {
           <div class="container px-6 py-10 mx-auto">
             <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">
               explore our <br /> awesome{" "}
-              <span class="underline decoration-blue-500">Components</span>
+              <span class="underline decoration-teal-600">Features</span>
             </h1>
 
-            <p class="mt-4 text-gray-500 xl:mt-6 dark:text-gray-300">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum
-              quam voluptatibus
-            </p>
-
             <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
-              <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
-                <span class="inline-block text-blue-500 dark:text-blue-400">
+              <div class="p-8 space-y-3 border-2 border-teal-600 rounded-xl">
+                <span class="inline-block text-teal-600">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="w-8 h-8"
@@ -40,18 +35,18 @@ const Features = () => {
                 </span>
 
                 <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
-                  elegant Dark Mode
+                  anti-whale machanism
                 </h1>
 
                 <p class="text-gray-500 dark:text-gray-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Provident ab nulla quod dignissimos vel non corrupti doloribus
-                  voluptatum eveniet
+                  We have a maximum NFT amount that a wallet can hold to avoid a
+                  single hunter gaining massive rewards and claiming almost all
+                  the Castel's token by themselfs.
                 </p>
               </div>
 
-              <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
-                <span class="inline-block text-blue-500 dark:text-blue-400">
+              <div class="p-8 space-y-3 border-2 border-teal-600 rounded-xl">
+                <span class="inline-block text-teal-600">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="w-8 h-8"
@@ -69,18 +64,18 @@ const Features = () => {
                 </span>
 
                 <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
-                  Easy to customiztions
+                  Airdrops
                 </h1>
 
                 <p class="text-gray-500 dark:text-gray-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Provident ab nulla quod dignissimos vel non corrupti doloribus
-                  voluptatum eveniet
+                  Airdrops wont required a big amount of tokens staked, that way
+                  everybody can have equal chances to get an airdrop, no only
+                  those with more tokens.
                 </p>
               </div>
 
-              <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
-                <span class="inline-block text-blue-500 dark:text-blue-400">
+              <div class="p-8 space-y-3 border-2 border-teal-600 rounded-xl">
+                <span class="inline-block text-teal-600">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="w-8 h-8"
@@ -98,13 +93,13 @@ const Features = () => {
                 </span>
 
                 <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
-                  Simple & clean designs
+                  NFT multipliers
                 </h1>
 
                 <p class="text-gray-500 dark:text-gray-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Provident ab nulla quod dignissimos vel non corrupti doloribus
-                  voluptatum eveniet
+                  Use Mystical NFTs to boost you earnings! We also have a limit
+                  per wallet here to avoid unsustainable earnings and give a
+                  fair distribution between all investors.
                 </p>
               </div>
             </div>
